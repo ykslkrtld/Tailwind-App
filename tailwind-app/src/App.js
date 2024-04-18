@@ -4,7 +4,7 @@ function App() {
       <header >
         <div>
           <div className="flex justify-between mt-4">
-            <div className="flex gap-10 ms-10 items-center">
+            <div className="flex gap-10 ms-5 items-center">
               <a href="#clarusway">
                 <img
                   src="https://d33wubrfki0l68.cloudfront.net/682a555ec15382f2c6e7457ca1ef48d8dbb179ac/f8cd3/images/logo.svg"
@@ -12,34 +12,18 @@ function App() {
                 />
               </a>
             
-            <div>
-              <button type="button">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              </button>
-            </div>
+           
 
-            <div className="flex gap-10 items-center">
-              <a href="#solutions"> Solutions </a>
-              <a href="#industries"> Industries </a>
-              <a href="#fees"> Fees </a>
-              <a href="#About"> About Rareblocks </a>
+            <div className="flex gap-3 items-center">
+              <a className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg" href="#solutions"> Solutions </a>
+              <a className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg" href="#industries"> Industries </a>
+              <a className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg" href="#fees"> Fees </a>
+              <a className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg" href="#About"> About Rareblocks </a>
             </div>
             </div>
-            <div className="flex gap-5 items-center me-10">
-              <a href="#login"> Sign in </a>
-              <a className=" w-[187px] h-[45px] bg-gray-900 text-white justify-center flex items-center rounded-lg" href="#register" rel="noopener noreferrer" role="button">
+            <div className="flex gap-3 items-center me-5">
+              <a className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg" href="#login"> Sign in </a>
+              <a className=" w-[187px] h-[35px] bg-gray-900 text-white justify-center flex items-center rounded-lg" href="#register" rel="noopener noreferrer" role="button">
                 Create free account
               </a>
             </div>
@@ -58,7 +42,7 @@ function App() {
               <form action="#" method="POST">
                 <div className="flex justify-between border p-2 rounded-xl mt-4 mb-8">
                   <input
-                    className="p-3"
+                    className="p-3 w-80"
                     type="email"
                     placeholder="Enter email address"
                     required
@@ -106,7 +90,7 @@ function App() {
             </div>
           </div>
           <div className="flex justify-end w-[40%] ">
-            <img className="h-[40rem]"
+            <img className="h-[35rem]"
               src="https://d33wubrfki0l68.cloudfront.net/d6f1462500f7670e0db6b76b35054a081679a5a0/0ce15/images/hero/5.1/illustration.png"
               alt="images"
             />
