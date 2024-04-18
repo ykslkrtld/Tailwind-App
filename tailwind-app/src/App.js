@@ -71,7 +71,7 @@ function App() {
             </div>
             <div className="flex justify-between items-center">
               <div className="flex justify-between items-center gap-3">
-                <p className="font-plus-jakarta-sans font-semibold text-[42px] leading-[62px]">2943</p>
+                <p className="font-plus-jakarta-sans font-medium text-[42px] leading-[62px]">2943</p>
                 <p className="font-plus-jakarta-sans text-[13px] leading-[20px]"> 
                   Cards
                   <br />
@@ -96,7 +96,7 @@ function App() {
                 </svg>
               </div>
               <div className="flex justify-between items-center gap-3">
-                <p className="font-plus-jakarta-sans font-semibold text-[42px] leading-[62px]">$1M+</p>
+                <p className="font-plus-jakarta-sans font-medium text-[42px] leading-[62px]">$1M+</p>
                 <p className="font-plus-jakarta-sans text-[13px] leading-[20px]">
                   Transaction
                   <br />
