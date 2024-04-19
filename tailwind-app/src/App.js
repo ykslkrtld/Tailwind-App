@@ -17,25 +17,25 @@ function App() {
         <div className="flex justify-between w-10/12 me-6">
           <div className="hidden md:flex gap-3 items-center">
             <a
-              className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+              className="hover:bg-slate-700 hover:text-white duration-300 py-1 px-3 rounded-lg"
               href="#solutions"
             >
               Solutions
             </a>
             <a
-              className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+              className="hover:bg-slate-700 hover:text-white duration-300 py-1 px-3 rounded-lg"
               href="#industries"
             >
               Industries
             </a>
             <a
-              className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+              className="hover:bg-slate-700 hover:text-white duration-300 py-1 px-3 rounded-lg"
               href="#fees"
             >
               Fees
             </a>
             <a
-              className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+              className="hover:bg-slate-700 hover:text-white duration-300 py-1 px-3 rounded-lg"
               href="#About"
             >
               About
@@ -43,7 +43,7 @@ function App() {
           </div>
           <div className="hidden md:flex  gap-3 items-center">
             <a
-              className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+              className="hover:bg-slate-700 duration-300 hover:text-white py-1 px-3 rounded-lg"
               href="#login"
             >
               Sign in
@@ -72,31 +72,31 @@ function App() {
         } md:hidden`}
       >
         <a
-          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 duration-300 rounded-lg"
           href="#solutions"
         >
           Solutions
         </a>
         <a
-          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 duration-300 rounded-lg"
           href="#industries"
         >
           Industries
         </a>
         <a
-          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 duration-300 rounded-lg"
           href="#fees"
         >
           Fees
         </a>
         <a
-          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 duration-300 rounded-lg"
           href="#About"
         >
           About Rareblocks
         </a>
         <a
-          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 duration-300 rounded-lg"
           href="#login"
         >
           Sign in
