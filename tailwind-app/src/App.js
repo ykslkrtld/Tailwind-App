@@ -1,10 +1,12 @@
-
+import React, { useState } from "react";
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div>
-      <header className="flex justify-between mt-5">
-        <div className=" ms-10 items-center">
+      <header className="flex justify-between items-center mt-5 px-10 md:px-5">
+        <div className="ms-6 max-md:ms-0">
           <a href="#clarusway">
             <img
               src="https://d33wubrfki0l68.cloudfront.net/682a555ec15382f2c6e7457ca1ef48d8dbb179ac/f8cd3/images/logo.svg"
@@ -12,8 +14,8 @@ function App() {
             />
           </a>
         </div>
-        <div className="flex justify-between w-10/12">
-          <div className="flex gap-3 items-center ">
+        <div className="flex justify-between w-10/12 me-6">
+          <div className="hidden md:flex gap-3 items-center">
             <a
               className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
               href="#solutions"
@@ -36,19 +38,18 @@ function App() {
               className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
               href="#About"
             >
-              About Rareblocks
+              About
             </a>
           </div>
-          <div className="flex gap-3 items-center me-10">
+          <div className="hidden md:flex  gap-3 items-center">
             <a
               className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
               href="#login"
             >
-              {" "}
-              Sign in{" "}
+              Sign in
             </a>
             <a
-              className=" w-[187px] h-[35px] bg-gray-900 text-white justify-center flex items-center rounded-lg"
+              className="w-[187px] h-[35px] bg-gray-900 text-white justify-center flex items-center rounded-lg"
               href="#register"
               rel="noopener noreferrer"
               role="button"
@@ -57,7 +58,58 @@ function App() {
             </a>
           </div>
         </div>
+        <button
+          className="md:hidden"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {isMenuOpen ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-bars"></i>}
+          
+        </button>
       </header>
+      <div
+        className={`flex flex-col items-center mt-4 ${
+          isMenuOpen ? "block" : "hidden"
+        } md:hidden`}
+      >
+        <a
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          href="#solutions"
+        >
+          Solutions
+        </a>
+        <a
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          href="#industries"
+        >
+          Industries
+        </a>
+        <a
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          href="#fees"
+        >
+          Fees
+        </a>
+        <a
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          href="#About"
+        >
+          About Rareblocks
+        </a>
+        <a
+          className="hover:bg-slate-700 hover:text-white py-1 px-3 rounded-lg"
+          href="#login"
+        >
+          Sign in
+        </a>
+        <a
+          className="w-[187px] h-[35px] bg-gray-900 text-white justify-center flex items-center rounded-lg"
+          href="#register"
+          rel="noopener noreferrer"
+          role="button"
+        >
+          Create free account
+        </a>
+      </div>
       <section>
         <div className="flex justify-evenly items-center mt-10 max-md:flex-col">
           <div className=" w-[481px] flex flex-col max-md:w-80">
