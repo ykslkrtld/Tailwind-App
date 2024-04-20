@@ -124,7 +124,7 @@ function App() {
               <form action="#" method="POST">
                 <div className="flex justify-between border p-2 rounded-xl mb-5 max-md:flex-col max-md:border-0  max-md:bg-gradient-to-r from-blue-200 via-green-100 to-purple-100">
                   <input
-                    className="p-3 w-72 max-md:border max-md:text-center max-md:m-auto max-md:rounded-lg"
+                    className="p-3 w-72 max-md:border max-md:text-center max-md:m-auto max-md:rounded-lg focus:outline-slate-300"
                     type="email"
                     placeholder="Enter email address"
                     required
